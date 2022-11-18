@@ -1,0 +1,50 @@
+.banner{
+    position: relative;
+}
+
+.bannertitle{
+    position: absolute;
+    bottom: 140px;
+    right: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.bannertitle h2{
+    display: block;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bannertitle a{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+    background-color: beige;
+    font-size: x-large;
+    
+}
+.banner img{
+    height: 10%;
+    width: 100%;
+}
+
+.categories{
+    padding: 20px;
+}
+.produtos{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.produtos div{
+    width: 200px;
+    height: 200px;
+}
+
+.produtos div img{
+    width: 100%;
+}

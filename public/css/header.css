@@ -7,6 +7,10 @@
     background-color:#fefeff;
     box-shadow: 0 5px 15px rgba(0, 0, 0,0.06);
 }
+#topheader img{
+    width:300px;
+    height:50px;
+}
 /* Header menu*/
 #headerbar{
     display:flex;
@@ -35,6 +39,7 @@
 
 .search-text{
     border: solid 1px #1a1a1a;
+    width: 380px;
 }
 
 /* Menu*/
