@@ -70,9 +70,16 @@
 }
 
 #customer {
-    background-color: aqua;
-    width: 70%;
-    
+    width: 70%;  
+    padding-right: 20px;
+}
+
+#customer p{
+    line-height: 1.5;
+}
+
+#customer h2{
+    padding-bottom: 10px;
 }
 
 .reviews div{
@@ -81,7 +88,6 @@
 
 #about {
     padding-left: 20px;
-    background-color: beige;
     width: 30%;
 }
 
