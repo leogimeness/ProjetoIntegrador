@@ -1,10 +1,16 @@
 .banner{
+    background-image: url(../img/banner.png);
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
     position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #f5f7fa;
 }
 
 .bannertitle{
     position: absolute;
-    bottom: 140px;
+    top: 40px;
     right: 150px;
     padding-left: 20px;
     padding-right: 20px;
@@ -27,7 +33,7 @@
 }
 .banner img{
     height: 10%;
-    width: 100%;
+    width: 1024px;
 }
 
 .categories{
@@ -39,12 +45,52 @@
     justify-content: space-around;
   
 }
-
 .produtos div{
     width: 200px;
     height: 200px;
 }
 
+.produtos div a{
+    text-decoration: none;
+    color: black;
+}
 .produtos div img{
     width: 100%;
+}
+
+.produtos div a:hover{
+    color: #088178;
+}
+
+
+.reviews {
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+}
+
+#customer {
+    background-color: aqua;
+    width: 70%;
+    
+}
+
+.reviews div{
+    height: 200px;
+}
+
+#about {
+    padding-left: 20px;
+    background-color: beige;
+    width: 30%;
+}
+
+#about ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+#about img{ 
+    width: 20px;
+    height: 20px;
 }
