@@ -1,10 +1,26 @@
+body {
+    background-color: rgb(238, 235, 235);
+}
 .center {
- position: absolute;   
- top: 50%;
- left: 50%;
- transform: translate(-50%,-50%);
- width: 400px;
- background-color: lightblue;
- border-radius: 10px;
+    padding: 20px 100px;
+    width: 50%;
+}
+
+.center h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+
+#regcostumer{
+    padding-top: 25px;
+}
+
+#regcostumer h2{
+    font-size: 20px;
+    border-bottom: 1px solid black
+    }
+
+#regcostumer form{
+    padding-top: 20px;
 }
 
