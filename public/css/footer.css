@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #808184;
+    margin: 60px auto;
+   
+}
+.main_content{
+    display: flex;
+    padding: 0px 80px;
+}
+
+.main_content .caixa{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font: size 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+}
+
+ul a{
+    text-decoration: none;
+    color: #808184;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    color: #333333;
+}
+
+.botao_whats {
+    background-color: #808184;
+    padding:15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:150px;
+    justify-content: center;
+}
