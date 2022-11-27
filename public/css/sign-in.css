@@ -1,26 +1,78 @@
-body {
-    background-color: rgb(238, 235, 235);
-}
-.center {
+main h1{
     padding: 20px 100px;
-    width: 50%;
-}
-
-.center h1{
     font-size: 40px;
     font-family: cursive;
 }
 
+.center {
+    padding: 20px 100px;
+    display: flex;
+}
+
+.center form div{
+    padding: 20px 0 10px 0px;
+}
+
+.txt_field input {
+
+    width: 300px;
+    border: solid 1px #c1c1c1;
+    padding: 10px;
+    font-size: 15px;
+
+}
 #regcostumer{
-    padding-top: 25px;
+    width: 500px;
+    padding-top: 10px;
 }
 
 #regcostumer h2{
     font-size: 20px;
-    border-bottom: 1px solid black
-    }
+    border-bottom: 1px solid black;
+}
 
 #regcostumer form{
     padding-top: 20px;
 }
 
+#regcostumer a{
+    font-size: 20px;
+    padding: 10px 0px 20px 0;
+    display: block;
+    color:darkgray;
+    text-decoration: none;
+}
+
+.final button{
+    border: none;
+    width: 80px;
+    height: 50px;
+    background-color: lightgreen;
+    color: white;
+    cursor: pointer;
+}
+
+#newcostumer{
+    width: 550px;
+    padding: 10px 0 0 100px;
+}
+
+#newcostumer h2{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    
+}
+
+#newcostumer p {
+padding: 20px 0px 20px 0px;
+
+}
+
+#newcostumer button{
+    border: none;
+    width: 80px;
+    height: 50px;
+    background-color: lightgreen;
+    color: white;
+    cursor: pointer;
+}
