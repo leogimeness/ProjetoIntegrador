@@ -1,0 +1,37 @@
+main {
+    padding: 20px 100px 0px 100px;
+}
+
+main h1{
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+main span{
+    font-size: 25px;
+    border-bottom: 1px solid black;
+   
+}
+
+.txt_field{
+    padding: 30px 0px;
+}
+.txt_field input {
+
+    width: 300px;
+    border: solid 1px #c1c1c1;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+main button{
+    padding-top: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(63, 63, 202);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
