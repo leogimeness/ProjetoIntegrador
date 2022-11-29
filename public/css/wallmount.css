@@ -6,7 +6,7 @@ body {
 }
 
 .banner{
-    background-image: url(../img/products/undercabinets/banner.png);
+    background-image: url(../img/products/wallrange/banner.png);
     background-size: 1200px auto;
     background-repeat: no-repeat;
     position: relative;
@@ -49,7 +49,7 @@ body {
     width: 350px;
 }
 
-.undercabinet{
+.wallmount{
     width: 100%;
     background-color: #fafafa;
     padding: 15px 15px 30px;
@@ -57,17 +57,17 @@ body {
     justify-content: center;
 }
 
-.undercabinet a{
+.wallmount a{
     text-decoration: none;
 }
 
-.undercabinet h2{
+.wallmount h2{
     font-size: 18px;
     color: #3f3f3f;
     padding-bottom: 20px;
 }
 
-.undercabinet span{
+.wallmount span{
     position: absolute;
     font-size: 20px;
     color: #3a302b;
@@ -81,11 +81,11 @@ body {
     border-radius: 20px;
 }
 
-.undercabinet h2:hover{
+.wallmount h2:hover{
     color: #088178;
 }
 
-.undercabinet:hover{
+.wallmount:hover{
     transform: scale(1.1);
     z-index: 3;
     box-shadow: 2px 2px 4px #3a302b;
