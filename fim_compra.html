@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./ProjetoIntegrador/public/css/fim_compra.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      
+    </header>
+    <main>
+      <h2>Payment Method</h2>
+      <div class="container">
+        <div class="dados">
+          <div class="marca-opcao">
+            <input type="radio" name="card" id="card" />
+            <label for="card">Credit Card</label>
+          </div>
+          <div class="dados">
+            <input type="checkbox" name="dados" id="dados" />
+            <label for="dados"
+              >My billing and shipping address are the same</label
+            >
+            <ul>
+              <li>Name</li>
+              <li>Street</li>
+              <li>City</li>
+              <li>Phone Number</li>
+            </ul>
+          </div>
+
+          <div class="metodo-pag">
+            <div class="numero-cartao">
+              <label for="numero-cartao">Credit Card Number: </label>
+              <input
+                type="numero-cartao"
+                name="numero-cartao"
+                id="numero-cartao"
+                placeholder="1111 2222 3333 4444"
+              />
+            </div>
+            <div class="numero-validade">
+              <label for="numero-validade">Credit Card Number: </label>
+              <input
+                type="numero-validade"
+                name="numero-validade"
+                id="numero-validade"
+                placeholder="MM/AA"
+              />
+            </div>
+            <div class="numero-cvc">
+              <label for="numero-cvc">Credit Card Number: </label>
+              <input
+                type="numero-cvc"
+                name="numero-cvc"
+                id="numero-cvc"
+                placeholder="CVC"
+              />
+            </div>
+            
+          </div>
+        </div>
+
+        <div>
+            
+            <div id="section">
+            
+                 
+                
+                <div id="summary">
+                    <header class="header-summary">Summary</header>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Item</td>
+                                <td>Valor</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Price</td>
+                                <td>$ 2,229,99</td>
+                            </tr>
+                            <tr>
+                                <td>Qty</td>
+                                <td> 1 un</td>
+                            </tr>
+                            <tr>
+                                <td>Discount</td>
+                                <td>$ 200</td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td>$ 2,029,99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button>Confirm Payment</button>
+                    
+                </div>
+        
+            </div>  
+        </div>
+
+      </div>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
