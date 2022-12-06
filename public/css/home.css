@@ -40,27 +40,36 @@
     padding: 20px;
 }
 .produtos{
-    padding-top:20px;
-    display: flex;
-    justify-content: space-around;
-  
+    padding:20px 0px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 10px;
 }
+
 .produtos div{
     width: 200px;
-    height: 200px;
 }
 
 .produtos div a{
     text-decoration: none;
     color: black;
 }
+
 .produtos div img{
     width: 100%;
+    object-fit: cover;
+}
+
+.opcoes:hover{
+transform: scale(1.1);
+z-index: 3;
+box-shadow: 2px 2px 4px #3a302b;
 }
 
 .produtos div a:hover{
     color: #088178;
-}
+} 
 
 
 .reviews {

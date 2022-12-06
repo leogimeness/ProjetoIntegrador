@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url(../img/products/profissional/banner.png);
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #f5f7fa;
+}
+
+.bannertitle{
+    position: absolute;
+    top: 40px;
+    width: 45%;    
+    padding-left: 100px;
+}
+
+.bannertitle h2{
+    font-size: 30px;
+}
+
+.bannertitle h3{
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.bannertitle span{
+    font-size: 18px;
+}
+
+#container{
+    padding-top: 40px;
+    padding-left: 100px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:25px;
+}
+
+#container div{
+    width: 350px;
+}
+
+.profissional{
+    width: 100%;
+    background-color: #fafafa;
+    padding: 15px 15px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profissional a{
+    text-decoration: none;
+}
+
+.profissional h2{
+    font-size: 18px;
+    color: #3f3f3f;
+    padding-bottom: 20px;
+}
+
+.profissional span{
+    position: absolute;
+    font-size: 20px;
+    color: #3a302b;
+    font-style: bold;
+}
+
+.photo{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.profissional h2:hover{
+    color: #088178;
+}
+
+.profissional:hover{
+    transform: scale(1.1);
+    z-index: 3;
+    box-shadow: 2px 2px 4px #3a302b;
+} 

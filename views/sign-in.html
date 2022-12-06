@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecommerce</title>
+        <link rel="stylesheet" href="/css/basic.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/sign-in.css">
+        <script src="https://kit.fontawesome.com/1051284148.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+            
+        <section id = "topheader">
+            <a href="/"><img src = "/img/logo.webp"  class = "Logo"/></a>            
+
+            <div class="searchbar">
+                <input type="text" class="search-text" placeholder="Find your product...">
+                
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                
+            </div>
+                
+            <div> 
+                <ul id = "headerbar">
+                    <li> <a class = "active" href="/account"> Sign In </a>  </li>
+                    <li> <a href="/cart"></ahref> <i class="fa-solid fa-cart-shopping"></i></a></li>
+                    
+                </ul>
+            </div>
+
+        </section>
+        
+        <section id = "menu">
+            <div>
+
+                <ul id = "navbar">
+                    <li> <a class = "active" href="/"> Home </a>  </li>
+                    <li> <a href="/promotion"> Promotion </a>  </li>
+                    <li> <a href="/island"> Island  </a>  </li>
+                    <li> <a href="/profissional"> Profissional </a>  </li>
+                    <li> <a href="/undercabinet "> Under Cabinet  </a>  </li>
+                    <li> <a href="/wallmount"> Wall Mount  </a>  </li>
+                    
+
+                </ul>
+            </div>
+            
+        </section>
+    </header>
+    
+    
+    <main>  
+
+        <h1>Customer Login</h1>
+        
+        <section class = "center">  
+            
+           <div id = "regcostumer">
+                <h2>Registered Costumer</h2>
+                
+                <form method ="post">
+                    <span>If you have an account, sign in with your email address </span>
+                    <div class = "txt_field">
+                        <label>Email</label>
+                        <input name = "email" type="email" required>
+                       
+                    </div>
+
+                    <div class = "txt_field">
+                        <label >Password</label>
+                        <input  type="password" name = "pass" required>
+                        
+                    </div>
+
+                    <div class = "final">
+                    <a href="/forgetpass">Forgot Password?</a>
+                    
+                    <button type="submit" >Sign in</button>
+                    
+                    </div>
+                
+                </form>
+
+            </div>
+
+            <div id = "newcostumer">
+                <h2>New Costumers</h2>
+                <p>Creating an account has many benefits: check out faster, keep more than one address, track orders and more.</p>
+                <a href="/sign-up"><button>Sign up</button></a>
+
+            </div>
+
+            
+        
+        </section>
+    
+    </main>
+
+
+
+</body>
+</html>
