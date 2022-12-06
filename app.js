@@ -21,4 +21,35 @@ app.get('/profissional',(req,res) =>{
     return res.sendFile(__dirname + "/views/profissional.html");
 })
 
+app.get('/undercabinet',(req,res) =>{
+
+    return res.sendFile(__dirname + "/views/undercabinet.html");
+})
+
+app.get('/wallmount',(req,res) =>{
+
+    return res.sendFile(__dirname + "/views/wallmount.html");
+})
+
+app.get('/account',(req,res) =>{
+
+    return res.sendFile(__dirname + "/views/sign-in.html");
+})
+
+app.get('/sign-up',(req,res) =>{
+
+    return res.sendFile(__dirname + "/views/sign-up.html");
+})
+
+app.get('/forgetpass',(req,res) =>{
+
+    return res.sendFile(__dirname + "/views/forgetpassword.html");
+})
+
+
+app.get('/promotion',(req,res) =>{
+
+    return res.sendFile(__dirname + "/views/promotion.html");
+})
+
 app.listen(3001);
