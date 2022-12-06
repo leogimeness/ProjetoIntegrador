@@ -10,8 +10,11 @@ footer{
     width: 100%;
     border-top: 1px solid #808184;
     margin: 60px auto;
+<<<<<<< HEAD
     font-family: 'Lato', sans-serif;
     font-size: 13px;
+=======
+>>>>>>> 8a3278dc35d56b68b576115d9d13b1787b0c3785
    
 }
 .main_content{
@@ -35,9 +38,12 @@ footer{
 ul a{
     text-decoration: none;
     color: #808184;
+<<<<<<< HEAD
     
     line-height: 1.6;
     
+=======
+>>>>>>> 8a3278dc35d56b68b576115d9d13b1787b0c3785
 }
 
 ul{
@@ -48,6 +54,7 @@ h2{
     color: #333333;
 }
 
+<<<<<<< HEAD
 .caixa ul{
     margin-top: 10px;
     
@@ -86,4 +93,13 @@ h2{
 
 .direita a{
     margin-top: 10px;
+=======
+.botao_whats {
+    background-color: #808184;
+    padding:15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:150px;
+    justify-content: center;
+>>>>>>> 8a3278dc35d56b68b576115d9d13b1787b0c3785
 }
