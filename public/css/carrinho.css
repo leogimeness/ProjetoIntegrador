@@ -1,0 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color: rgb(110, 109, 109);
+}
+
+.container{
+    display: flex;
+}
+
