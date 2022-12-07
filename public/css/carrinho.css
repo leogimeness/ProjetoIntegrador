@@ -8,4 +8,180 @@
 .container{
     display: flex;
 }
+h2{
+    font-size:42px;
+    color:#333;
+    margin: 30px 0px 20px 60px ;
+}  
+.container{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.titulo{
+    padding-top:5px;
+    padding-bottom: 5px;
+    color: #333;
+    border-bottom: solid 1px #333;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.3);
+    
+}
+table{
+    padding: 18px 10px;    
+    
+}
+.valor-item{
+    display: flex
+}
+
+.valor-item a{
+    background-color:rgb(223, 225, 231);
+    margin-top: 15px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    
+}
+.valor-item img{
+    background-color: aquamarine;
+    align-items: center;
+}
+
+
+.item-prodct{
+    
+    color: #333;
+    
+}
+
+
+/*                sfsdgsdgsd           */
+
+
+#container  {
+    
+    display: flex;   
+    margin: 30px 0 0 30px ; 
+    height: 400px;
+    width:80%;
+   
+    
+}
+#container table {
+    
+    width:100%;
+    
+    
+    
+}
+
+#container .titulo{
+    border-bottom: 1px solid #dbd7d7;
+    font-weight: bold;
+    
+    
+    
+}
+
+#container .valor {
+    
+    border-right: 1px solid #dbd7d7;
+    
+    
+}
+.valor div{
+    position: relative
+}
+
+.valor a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    
+
+}
+.valor span{
+    
+    top: 200px;
+    
+}
+
+
+/* sumary*/
+
+#section{
+    display: flex;
+}
+#summary {
+    padding: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    width: 20%;
+    height: 400px;
+    margin: 30px 10px 0 10px ; 
+    line-height: 1.8;
+}
+#summary header {
+    /* background-color: aqua; */
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#summary table {
+    width: 100%;
+}
+
+#conteudo {
+    background-color: aqua;
+    width: calc(100% - 300px);
+    padding: 10px;
+}
+.btn-pagamento{
+    padding: 10px;
+    width: 80%;
+    margin-top: 40px;
+    align-items: center;
+    justify-content:center;
+    color: rgb(215, 215, 224);
+    background-color:rgb(62, 147, 187);
+    border: none;
+    display: flex;
+    margin-left: 20px;
+
+}
+.buttons-edit{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    
+}
+.buttons-edit button {
+   
+    padding: 5px;
+    margin: 10px;
+    border: none;
+}
+
+.buttons-extra{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons-extra button{
+    
+    padding: 5px;
+    margin: 10px;
+    border: none;
+
+}
